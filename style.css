@@ -1,0 +1,49 @@
+.container{
+    width: 800px;
+    margin: 50px auto;
+    background-color: rgb(224, 250, 224);
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    padding: 10px;
+}
+#expense-form input, #expense-form select{
+    margin: 10px 5px;
+    padding: 5px;
+    border: none;
+    width: 150px;
+}
+ #expense-form button{
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: rgb(3, 243, 3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .expense-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+ }
+ .expense-table table th{
+    background-color: rgb(143, 243, 143);
+    color: black;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 10px solid rgb(143, 243, 143);
+ }
+ .expense-table table td{
+    padding: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+
+ }
+ .filter, .total-amount{
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
